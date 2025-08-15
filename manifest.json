@@ -1,0 +1,54 @@
+{
+  "name": "SuiSight - Prediction Markets",
+  "short_name": "SuiSight",
+  "description": "Decentralized prediction markets on SUI blockchain",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F0D15",
+  "theme_color": "#8B5CF6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/Fulcrum.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Fulcrum.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "business", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "/Fulcrum.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "SuiSight Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Markets",
+      "short_name": "Markets",
+      "description": "Browse prediction markets",
+      "url": "/",
+      "icons": [{ "src": "/Fulcrum.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Portfolio",
+      "short_name": "Portfolio", 
+      "description": "View your portfolio",
+      "url": "/portfolio",
+      "icons": [{ "src": "/Fulcrum.png", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
